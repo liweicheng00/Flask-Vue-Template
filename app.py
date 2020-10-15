@@ -6,7 +6,7 @@ app = Flask(__name__, static_url_path='/templates', static_folder='templates', i
 @app.route('/')
 def hello():
 
-    return render_template("/project/gitdist/index.html")
+    return render_template("/project/dist/index.html")
 
 
 if __name__ == "__main__":
